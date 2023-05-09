@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Container, Hero, Preview } from './styles'
 
 import img from '../../assets/calendario-completo.png'
+import { ClaimUsernameForm } from './components/ClainUsernameForm'
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
           Conecte seu calendario e permita que as pessoas marquem agendamentos
           no seu tempo livre
         </Text>
+
+        <ClaimUsernameForm />
       </Hero>
 
       <Preview>
