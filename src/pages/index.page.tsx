@@ -1,5 +1,3 @@
-import { Heading } from '@ignite-ui/react'
+// eslint-disable-next-line prettier/prettier
+export { default } from './home';
 
-export default function Home() {
-  return <Heading>Hello World</Heading>
-}
